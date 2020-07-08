@@ -1,0 +1,7 @@
+{
+  "name": "rca",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
