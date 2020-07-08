@@ -12,8 +12,12 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'page-members',
     pathMatch: 'full'
+  },
+  {
+    path: 'members',
+    loadChildren: () => import('./page-members/page-members.module').then( m => m.PageMembersPageModule)
   },
 ];
 
